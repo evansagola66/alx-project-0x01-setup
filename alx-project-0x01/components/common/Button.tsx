@@ -1,4 +1,4 @@
-const Button: React.FC<ButtonProps>=()=>{
+const Button: React.FC=()=>{
   return (
     <div className="">
       <h1 className="">Button</h1>

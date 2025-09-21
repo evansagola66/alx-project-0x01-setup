@@ -1,4 +1,4 @@
-const PostCard: React.FC<PostCardProps> = () =>{
+const PostCard: React.FC= () =>{
   return (
     <div className="">
       <h1 className="">PostCard</h1>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer: React.FC <FooterProps>=()=>{
+const Footer: React.FC =()=>{
   return (
     <div className="">
       <h1 className="">Button</h1>
