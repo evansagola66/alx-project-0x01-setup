@@ -6,6 +6,6 @@ export interface PostProps {
 }
 
 
-export interface PostsPageProps {
+export interface PostsProps {
   posts: PostProps[]; // posts is an array of PostProps
 }
