@@ -1,16 +1,8 @@
 import PostCard from "@/components/common/PostCard";
 import Header from "@/components/layout/Header";
-import { PostsPageProps } from "@/interfaces";
+import { PostProps } from "@/interfaces";
 
-// Define PostProps interface if not imported from elsewhere
-interface PostProps {
-  title: string;
-  body: string;
-  userId: number;
-  id: number;
-}
-
-const Posts: React.FC<PostsPageProps> = ({ posts }) => {
+const Posts: React.FC<PostProps[]> = ({ posts }) => {
   console.log(posts)
   return (
     <div className="flex flex-col h-screen">
